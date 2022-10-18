@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
+
+:root {
+    --white: white;
+    --primary-color: blue;
+    --secondary-color: brown; 
+}
+
+body { 
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100vh;
+}
+
+.section {
+    background-color: var(--secondary-color);
+    background-image: url(images/yoda2.png); /*925x211 1920x192*/ 
+    /* https://unsplash.com/photos/den6gTowZKs */
+    background-repeat: no-repeat;
+    padding: 6rem;
+}
+
+.titleSpeak {
+    color: var(--white);
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.margins { 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.horizontal-line {
+    width: 50%;
+    margin: auto;
+}
+
+.horizontal-line-2px {
+    width: 50%;
+    margin: auto;
+    height: 2px;
+    background-color: black;
+}
+
+#textarea-input, #textarea-output {
+    display: block;
+    margin: auto;
+    width:250px;
+    height: 60px;
+}
+
+#btn-translate {
+    display: block;
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.footer-image {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: blue;
+    padding: 2rem;
+    background-image: url(images/yoda.png);
+    background-color: whitesmoke;
+}
+
+.fixed-bottom {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;   
+}
