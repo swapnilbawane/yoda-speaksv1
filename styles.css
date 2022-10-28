@@ -43,24 +43,38 @@ body {
     margin: auto;
 }
 
-.horizontal-line-2px {
+.title-main { 
+    color:rgb(12, 150, 12);
+    font-style: bold;
+    font-size: larger;
+}
+
+/* .horizontal-line-2px {
     width: 50%;
     margin: auto;
     height: 2px;
     background-color: black;
-}
+} */
 
 #textarea-input, #textarea-output {
     display: block;
     margin: auto;
     width:250px;
     height: 60px;
+    padding: 0.2rem;
+    text-align: center;
+    border-radius: 0.5rem;
 }
 
 #btn-translate {
     display: block;
     margin: auto;
     font-family: 'Josefin Sans', sans-serif;
+    padding: 0.5rem;
+    font-size: large;
+    background-color: rgb(12, 150, 12);
+    color: white;
+    border-radius: 0.5rem;
 }
 
 .footer-image {
@@ -77,5 +91,6 @@ body {
     position: fixed;
     width: 100%;
     bottom: 0;
-    text-align: center;   
+    text-align: center;  
+    color: white; 
 }
