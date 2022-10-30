@@ -1,4 +1,4 @@
-# Mark Seven - Fun Translation API - Yoda Speaks App. . 
+# Mark Seven - Fun Translation API - Yoda Speaks App.
 
 This project uses the following tech stack: HTML, CSS and Vanilla Javascript. 
 
