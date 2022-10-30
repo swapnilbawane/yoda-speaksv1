@@ -10,3 +10,6 @@ The app takes in text input and translates the input into Yoda’s  language usi
 
 [Test the live link here](https://yodaspeakv1.netlify.app/)
 
+Home Page:
+![Home page](https://github.com/swapnilbawane/yoda-speaksv1/blob/main/screenshots/m7-home.png?raw=true)
+
